@@ -16,14 +16,14 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Login />} />
-        <Route 
+        {/* <Route 
           path="/dashboard" 
           element={
             <PrivateRoute>
               <Policies />
             </PrivateRoute>
           } 
-        />
+        /> */}
         <Route 
           path="/dashboard/policies" 
           element={
